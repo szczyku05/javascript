@@ -1,0 +1,21 @@
+<script>
+    function znajdzMAX(tablica){
+        let najwiekszyElement = tablica[0]
+
+        for (let i = 1; i <tablica.length; i++){
+            if(tablica[i] > najwiekszyElement){
+                najwiekszyElement = tablica[i]
+            }
+        }
+        return najwiekszyElement;
+    }
+
+
+    const mojTablica = [162,165,111,24];
+    const max = znajdzMAX(mojTablica);
+    console.log("Największy element to:", max);
+
+
+
+
+</script>
